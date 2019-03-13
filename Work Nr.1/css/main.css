@@ -1,0 +1,200 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	color: #222;
+}
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+/*NAV BAR + COVER */
+header {
+		background: url(../img/first-bg.jpg) no-repeat center top / cover;
+		padding-bottom: 160px;
+}
+div {
+	box-sizing: border-box; /*containers padding do not make it bigger*/
+}
+.container {
+	width: 930px;
+	margin: 0 auto; /*center container*/
+}
+.logo {
+	margin-top: 41px;
+	float: left;
+}
+nav {
+	float: right;
+	margin-top: 45px;
+}
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 41px;
+}
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.titles__first {
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 180px;
+}
+h1 {
+	font-size: 75px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px;
+}
+.button {
+	background: #fed136;
+	color: #484543;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto; /*center container*/
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 50px;
+}
+
+/* SERVICES */
+.title {
+	padding-top: 120px;
+}
+.title h2 {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+.title p {
+	color: #777;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+}
+.services {
+	margin-top: 50px;
+	padding-bottom: 120px;
+}
+.services__item {
+	width: 270px;
+	float: left; /*put items in one line*/
+	text-align: center;
+}
+.services__item h3 {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.services__item p {
+	color: #777;
+	font-size: 14px;
+	line-height: 1.55em;
+}
+.services__item:last-child {	/*float last element of last services __item class*/
+	float: right;
+}
+.services__item:nth-child(2) { /*choose second of three service__item and make some changes*/
+	margin-left: 60px; 
+}
+
+/* PORTFOLIO */
+#portfolio {
+	background: #f7f7f7;
+	padding-bottom: 120px;
+}
+.works {
+	margin-top: 70px;
+}
+.works img {
+	float: left;
+}
+.works img:last-child {
+	float: right;
+}
+.works img:nth-child(2) {
+	margin-left: 29px;
+}
+
+/*ABOUT */
+.dates {
+	padding-top: 90px;
+}
+.date_1 h3 {
+	font-size: 18px;
+	line-height: 1.55em;
+	margin-bottom: 13px;
+	width: 500px;
+	text-align: right;
+}
+.date_1 p {
+	font-size: 14px;
+	color: #808080;
+	margin: 0;
+	width: 280px;
+	text-align: right;
+	line-height: 1.5em;
+}
+.date_1 img {
+	display: block;
+	float:right;
+	margin-left: 40px;
+}
+.date_1 {
+	margin-left: 60px;
+	padding-bottom: 90px;
+}
+.date_2 h3 {
+	font-size: 18px;
+	line-height: 1.55em;
+	margin-bottom: 13px;
+	width: 500px;
+	text-align: left;
+}
+.date_2 p {
+	font-size: 14px;
+	color: #808080;
+	margin-left: 200px;
+	width: 280px;
+	text-align: left;
+	line-height: 1.5em;
+}
+.date_2 img {
+	display: block;
+	float: left;
+	margin-right: 40px;
+}
+.date_2 {
+	margin-left: 380px;
+	padding-bottom: 90px;
+}
+
+/* FOOTER */
+h6 {
+	font-size: 12px;
+	color: #828282;
+	text-align: center;
+	padding-top: 30px;
+	margin-top: 0;
+	margin-bottom: 85px;
+}
